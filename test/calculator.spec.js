@@ -16,21 +16,21 @@ describe("Calculator test suite", () => {
     assert.equal(3, result);
   });
 
-  // it('can do subtraction', () => {
-  //     let result = calculator.subtract(2, 1);
+  it("can do subtraction", () => {
+    let result = calculator.subtract(2, 1);
 
-  //     assert.equal(1, result);
-  // });
+    assert.equal(1, result);
+  });
 
-  // it('can do multiplication', () => {
-  //     let result = calculator.multiply(2, 3);
+  it("can do multiplication", () => {
+    let result = calculator.multiply(2, 3);
 
-  //     assert.equal(6, result);
-  // });
+    assert.equal(6, result);
+  });
 
-  // it('can do division', () => {
-  //     let result = calculator.divide(6, 3);
+  it("can do division", () => {
+    let result = calculator.divide(6, 3);
 
-  //     assert.equal(2, result);
-  // });
+    assert.equal(2, result);
+  });
 });

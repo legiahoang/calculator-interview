@@ -6,4 +6,13 @@ function createCalculator(firstValue, secondValue) {
   this.add = (firstValue, secondValue) => {
     return firstValue + secondValue;
   };
+  this.subtract = (firstValue, secondValue) => {
+    return firstValue - secondValue;
+  };
+  this.multiply = (firstValue, secondValue) => {
+    return firstValue * secondValue;
+  };
+  this.divide = (firstValue, secondValue) => {
+    return firstValue / secondValue;
+  };
 }
